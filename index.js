@@ -1,4 +1,4 @@
-import {getNumberOfChars, getFirstChar, getLastChar, getLower, getUpper, getCapitalized} from "./variations.js";
+import {getNumberOfChars, getFirstChar, getLastChar, getLower, getUpper, getCapitalized} from "./script.js";
 
 const answer1 = document.querySelector("#answer1");
 const answer2 = document.querySelector("#answer2");
@@ -23,3 +23,5 @@ name.addEventListener("keyup", () => {
         answer6.textContent = "";
     }
 });
+
+
